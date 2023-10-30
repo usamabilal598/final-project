@@ -1,0 +1,151 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+     background-color: white;
+     
+}
+
+
+
+
+
+#navbar1{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+}
+#navbar1 ul{
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 80px;
+    font-weight: 500;
+}
+#FLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin-left: 110px;
+}
+#FLinks :hover{
+   text-decoration: underline;
+}
+#FLinks a{
+
+    list-style: none;
+    text-decoration: none;
+    color: #2997FF;
+} 
+#navbar1 ul a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #383535;
+}
+.mulie{
+    list-style: none;
+    text-decoration: none;
+}
+
+.multipleLi{
+    
+    height: 90px;
+     
+    display: flex;
+    flex-direction:column-reverse; 
+    align-items: center;
+}
+#Navbar{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: center;
+content: center;    
+}
+#NavDiv1{
+    margin-left: 90px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+#Navbar{
+    
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 80px;
+    font-weight: 500;
+}
+#FContainer{
+    width: 100%;
+    height: 100vh;
+     background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+
+#SContainer{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+#TContainer{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+#MiniContainer h1{
+    font-size: 50px;
+    font-weight: 900;
+ }
+ #MiniContainer h4{
+    font-size: 25px;
+    font-weight: 400;
+ }
+ .foter{
+    width: 100%;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.footer{
+    width: 100%;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    
+}
